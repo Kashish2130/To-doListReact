@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    display:flex;
+    gap:10px;
+    margin:10px 20% 0px 20%;
+}
+
+.item{
+    display: flex;
+    border-radius: 5px;
+    padding:5px;
+    flex:4;
+}
+
+.buttons{
+    display: flex;
+    gap:4px;
+    flex:1;
+}
+
+button{
+    padding:5px;
+    border-radius: 5px;
+    border:none;
+}

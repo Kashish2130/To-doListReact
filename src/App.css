@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Indie+Flower&family=Ubuntu:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainheading {
+  font-family: 'Indie Flower', cursive;
+  color: #435334;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.undoContainer {
+  display: flex;
+  margin: 10px 20% 0px 20%;
+  border-radius: 3px;
+  align-items:center;
+  justify-content: center;
+}
+
+.undoButton{
+  width:100%;
+  background-color: #6DB9EF;
+  /* background-color:#FFD966; */
+  color:aliceblue;
+}
+
+.completeditems{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20% 0px 20%;
+  border-radius: 3px;
+  gap:10px;
+}
+
+.AddBackButton{
+  width:100%;
+  background-color:#DF826C;
+  color:white;
+  text-decoration: line-through;
+  padding:7px;
+}
+
+.headerforcitems{
+  display: flex;
+}
+
+p{
+  display: flex;
+  flex:1;
+  color: #435334;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:large;
+}
+
+.clearCompletedButton{
+  background-color: #8ACDD7;
+  color:white;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clearCompletedButton:hover{
+  transition: ease-out 1s;
+  transform:scale(1.1);
+}
+
